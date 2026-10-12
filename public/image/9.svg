@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tokopediaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03ac0e" />
+      <stop offset="100%" stop-color="#02820a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#tokopediaGrad)" />
+  <circle cx="400" cy="300" r="230" fill="#ffffff" opacity="0.1" />
+
+  <g transform="translate(400, 210)">
+    <rect x="-160" y="-70" width="320" height="38" rx="19" fill="#ffffff" />
+    <text x="0" y="-45" font-family="'Poppins', sans-serif" font-size="16" font-weight="900" fill="#03ac0e" text-anchor="middle">DEKORASI TOKO ONLINE</text>
+
+    <text x="0" y="45" font-family="'Poppins', sans-serif" font-size="62" font-weight="900" fill="#ffffff" text-anchor="middle">PROMO SPESIAL</text>
+    <text x="0" y="115" font-family="'Poppins', sans-serif" font-size="54" font-weight="900" fill="#fdb60c" text-anchor="middle">ELEKTRONIK & GADGET</text>
+
+    <!-- Voucher ribbon -->
+    <rect x="-190" y="160" width="380" height="50" rx="12" fill="#ffffff" />
+    <text x="0" y="192" font-family="'Poppins', sans-serif" font-size="18" font-weight="bold" fill="#03ac0e" text-anchor="middle">KODE VOUCHER: GADGETHEMAT</text>
+  </g>
+</svg>

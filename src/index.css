@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #fdb60c;
+  --color-dark: #222222;
+  --color-light: #f8f8f8;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --shadow-soft: 0 10px 40px -10px rgba(0,0,0,0.08);
+  --shadow-hover: 0 20px 40px -10px rgba(253, 182, 12, 0.3);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.navbar-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.hero-bg {
+  background-color: #fdb60c;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-pattern {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.05) 2px, transparent 2px);
+  background-size: 30px 30px;
+}
+
+.card-hover {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -5px rgba(0,0,0,0.1);
+}
+
+.btn-hover {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.btn-hover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255,255,255,0.2);
+  transition: all 0.3s ease;
+}
+.btn-hover:hover::after {
+  width: 100%;
+}

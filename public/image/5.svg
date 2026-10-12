@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141824" />
+      <stop offset="100%" stop-color="#0b0e17" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#techGrad)" />
+  <circle cx="200" cy="150" r="220" fill="#fdb60c" opacity="0.08" />
+
+  <!-- Smart Device / Audio Mockup -->
+  <g transform="translate(560, 300)">
+    <!-- Glow -->
+    <circle cx="0" cy="0" r="140" fill="#fdb60c" opacity="0.15" />
+    <!-- Headphone arch -->
+    <path d="M -90 40 A 100 100 0 0 1 90 40" stroke="#fdb60c" stroke-width="20" fill="none" stroke-linecap="round" />
+    <!-- Earcups -->
+    <rect x="-115" y="20" width="36" height="75" rx="18" fill="#ffffff" />
+    <rect x="79" y="20" width="36" height="75" rx="18" fill="#ffffff" />
+    <rect x="-105" y="32" width="16" height="50" rx="8" fill="#222222" />
+    <rect x="89" y="32" width="16" height="50" rx="8" fill="#222222" />
+  </g>
+
+  <g transform="translate(80, 140)">
+    <rect x="0" y="0" width="130" height="30" rx="15" fill="#fdb60c" />
+    <text x="65" y="20" font-family="'Poppins', sans-serif" font-size="12" font-weight="bold" fill="#141824" text-anchor="middle">HI-RES AUDIO</text>
+    
+    <text x="0" y="90" font-family="'Poppins', sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="-1">WIRELESS</text>
+    <text x="0" y="145" font-family="'Poppins', sans-serif" font-size="52" font-weight="900" fill="#fdb60c" letter-spacing="-1">HEADPHONE</text>
+
+    <text x="0" y="195" font-family="'Montserrat', sans-serif" font-size="16" fill="#94a3b8">Suara jernih dengan fitur Active Noise Cancelling.</text>
+    <text x="0" y="222" font-family="'Montserrat', sans-serif" font-size="16" fill="#94a3b8">Baterai tahan lama hingga 40 jam pemakaian.</text>
+
+    <g transform="translate(0, 270)">
+      <rect x="0" y="0" width="180" height="50" rx="25" fill="#fdb60c" />
+      <text x="90" y="32" font-family="'Poppins', sans-serif" font-size="16" font-weight="bold" fill="#141824" text-anchor="middle">Beli Sekarang</text>
+    </g>
+  </g>
+</svg>

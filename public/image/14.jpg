@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0fdf4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f1f5f9" />
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="url(#certBg2)" stroke="#222222" stroke-width="6" />
+  <rect x="56" y="56" width="688" height="488" rx="10" fill="none" stroke="#fdb60c" stroke-width="3" />
+  <g transform="translate(400, 130)" text-anchor="middle">
+    <circle cx="0" cy="0" r="32" fill="#222222" />
+    <path d="M -12 25 L -20 60 L 0 45 L 20 60 L 12 25 Z" fill="#fdb60c" />
+    <circle cx="0" cy="0" r="22" fill="#fdb60c" />
+    <text x="0" y="7" font-family="'Poppins', sans-serif" font-size="18" font-weight="900" fill="#222222">MS</text>
+    <text x="0" y="70" font-family="'Poppins', sans-serif" font-size="28" font-weight="900" fill="#222222" letter-spacing="2">CERTIFICATE OF COMPLETION</text>
+    <text x="0" y="100" font-family="'Montserrat', sans-serif" font-size="14" font-weight="600" fill="#64748b">This certificate is proudly awarded to:</text>
+    <text x="0" y="150" font-family="'Poppins', sans-serif" font-size="34" font-weight="900" fill="#222222">IBNU KHANIF</text>
+    <line x1="-180" y1="165" x2="180" y2="165" stroke="#fdb60c" stroke-width="3" />
+    <text x="0" y="200" font-family="'Montserrat', sans-serif" font-size="16" font-weight="500" fill="#334155">In recognition of successfully finishing the intensive program:</text>
+    <text x="0" y="235" font-family="'Poppins', sans-serif" font-size="22" font-weight="bold" fill="#fdb60c">Graphic Design &amp; Visual Branding</text>
+    <text x="0" y="265" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#64748b">MySkill Learning Bootcamp Certification</text>
+  </g>
+</svg>

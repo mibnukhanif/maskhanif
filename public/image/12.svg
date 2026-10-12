@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#262626" />
+  <circle cx="600" cy="200" r="160" fill="#fdb60c" opacity="0.2" />
+
+  <!-- Roll-up Stand Banner Mockup -->
+  <g transform="translate(400, 190)">
+    <!-- Stand banner stand & base -->
+    <rect x="-100" y="-120" width="200" height="340" rx="10" fill="#ffffff" stroke="#fdb60c" stroke-width="4" />
+    <rect x="-130" y="220" width="260" height="16" rx="8" fill="#525252" />
+    <rect x="-15" y="-140" width="30" height="20" rx="4" fill="#737373" />
+
+    <!-- Banner art -->
+    <rect x="-90" y="-110" width="180" height="90" fill="#fdb60c" />
+    <text x="0" y="-75" font-family="'Poppins', sans-serif" font-size="14" font-weight="900" fill="#222222" text-anchor="middle">EVENT EXPO</text>
+    <text x="0" y="-55" font-family="'Poppins', sans-serif" font-size="11" font-weight="bold" fill="#222222" text-anchor="middle">PRODUK KREATIF</text>
+
+    <!-- Details list in banner -->
+    <rect x="-80" y="0" width="160" height="8" rx="4" fill="#222222" />
+    <rect x="-80" y="16" width="130" height="8" rx="4" fill="#a3a3a3" />
+    <rect x="-80" y="32" width="150" height="8" rx="4" fill="#a3a3a3" />
+
+    <circle cx="0" cy="80" r="28" fill="#fdb60c" />
+    <text x="0" y="85" font-family="'Poppins', sans-serif" font-size="14" font-weight="900" fill="#222222" text-anchor="middle">IK</text>
+
+    <rect x="-70" y="130" width="140" height="24" rx="12" fill="#222222" />
+    <text x="0" y="146" font-family="'Poppins', sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">INFO: 0851-5528-4564</text>
+  </g>
+</svg>

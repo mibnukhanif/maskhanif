@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#fff8e7" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="dropGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#222222" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background decorative badge -->
+  <circle cx="300" cy="300" r="230" fill="white" opacity="0.15" />
+  <circle cx="300" cy="300" r="190" fill="white" opacity="0.25" />
+
+  <!-- Designer Workspace Base -->
+  <g filter="url(#dropGlow)">
+    <!-- Workspace tablet / canvas -->
+    <rect x="130" y="160" width="340" height="260" rx="28" fill="#222222" />
+    <rect x="145" y="175" width="310" height="230" rx="20" fill="url(#heroGrad)" />
+
+    <!-- Canvas artwork preview -->
+    <!-- Top toolbar of canvas -->
+    <rect x="160" y="195" width="280" height="30" rx="8" fill="#ffffff" />
+    <circle cx="178" cy="210" r="5" fill="#fdb60c" />
+    <circle cx="196" cy="210" r="5" fill="#222222" opacity="0.3" />
+    <circle cx="214" cy="210" r="5" fill="#222222" opacity="0.3" />
+    <rect x="330" y="202" width="95" height="16" rx="8" fill="#fdb60c" />
+    <text x="377" y="214" font-family="sans-serif" font-size="10" font-weight="bold" fill="#222222" text-anchor="middle">IK STUDIO</text>
+
+    <!-- Visual design elements on tablet screen -->
+    <rect x="165" y="240" width="130" height="150" rx="14" fill="#ffffff" stroke="#fdb60c" stroke-width="2" />
+    <!-- Gradient card inside canvas -->
+    <rect x="175" y="250" width="110" height="75" rx="8" fill="#fdb60c" opacity="0.9" />
+    <path d="M195 300 Q 230 265 265 300" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" />
+    <circle cx="230" cy="280" r="14" fill="#ffffff" />
+    <rect x="175" y="335" width="80" height="8" rx="4" fill="#222222" opacity="0.7" />
+    <rect x="175" y="350" width="55" height="6" rx="3" fill="#222222" opacity="0.3" />
+
+    <!-- Color palette circles -->
+    <g transform="translate(315, 245)">
+      <rect x="0" y="0" width="125" height="145" rx="14" fill="#ffffff" />
+      <text x="12" y="24" font-family="sans-serif" font-size="11" font-weight="bold" fill="#222222">Brand Palette</text>
+      <circle cx="24" cy="50" r="14" fill="#fdb60c" />
+      <circle cx="58" cy="50" r="14" fill="#222222" />
+      <circle cx="92" cy="50" r="14" fill="#f59e0b" />
+      
+      <text x="12" y="85" font-family="sans-serif" font-size="10" font-weight="bold" fill="#777777">Vector Pen</text>
+      <!-- Stylus bezier curve -->
+      <path d="M 16 120 C 35 90, 80 135, 105 105" stroke="#fdb60c" stroke-width="3" fill="none" />
+      <circle cx="16" cy="120" r="4" fill="#222222" />
+      <circle cx="105" cy="105" r="4" fill="#222222" />
+    </g>
+  </g>
+
+  <!-- Stylus / Digital Pen Floating -->
+  <g transform="translate(420, 310) rotate(-40)" filter="url(#dropGlow)">
+    <rect x="0" y="0" width="18" height="140" rx="9" fill="#222222" />
+    <rect x="2" y="20" width="14" height="20" rx="3" fill="#fdb60c" />
+    <polygon points="9,155 2,138 16,138" fill="#111111" />
+    <circle cx="9" cy="155" r="2" fill="#fdb60c" />
+  </g>
+
+  <!-- Floating Badge 1: 100% Kualitas -->
+  <g transform="translate(80, 220)" filter="url(#dropGlow)">
+    <rect x="0" y="0" width="125" height="52" rx="16" fill="#ffffff" />
+    <circle cx="26" cy="26" r="16" fill="#fdb60c" />
+    <path d="M20 26 L24 30 L32 21" stroke="#222222" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="48" y="22" font-family="sans-serif" font-size="10" font-weight="bold" fill="#222222">Kualitas</text>
+    <text x="48" y="36" font-family="sans-serif" font-size="12" font-weight="900" fill="#fdb60c">Premium</text>
+  </g>
+
+  <!-- Floating Badge 2: Pengerjaan Cepat -->
+  <g transform="translate(390, 420)" filter="url(#dropGlow)">
+    <rect x="0" y="0" width="135" height="52" rx="16" fill="#222222" />
+    <circle cx="26" cy="26" r="16" fill="#fdb60c" />
+    <!-- Flash bolt -->
+    <path d="M26 18 L21 27 L26 27 L25 34 L31 25 L26 25 Z" fill="#222222" />
+    <text x="48" y="22" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">Pengerjaan</text>
+    <text x="48" y="36" font-family="sans-serif" font-size="12" font-weight="900" fill="#fdb60c">Super Cepat</text>
+  </g>
+</svg>

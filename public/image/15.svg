@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fff7ed" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#f8fafc" />
+  
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="url(#certBg3)" stroke="#c2410c" stroke-width="6" />
+  <rect x="56" y="56" width="688" height="488" rx="10" fill="none" stroke="#fdb60c" stroke-width="2" />
+
+  <g transform="translate(400, 130)" text-anchor="middle">
+    <!-- Trophy Badge -->
+    <circle cx="0" cy="0" r="32" fill="#fdb60c" />
+    <path d="M -16 -12 L 16 -12 L 10 10 L -10 10 Z" fill="#222222" />
+    <line x1="0" y1="10" x2="0" y2="18" stroke="#222222" stroke-width="4" />
+    <line x1="-12" y1="18" x2="12" y2="18" stroke="#222222" stroke-width="4" />
+
+    <text x="0" y="70" font-family="'Poppins', sans-serif" font-size="28" font-weight="900" fill="#222222" letter-spacing="1">CERTIFICATE OF RECOGNITION</text>
+    <text x="0" y="100" font-family="'Montserrat', sans-serif" font-size="14" font-weight="600" fill="#64748b">Apresiasi Penghargaan Kompetisi:</text>
+
+    <text x="0" y="150" font-family="'Poppins', sans-serif" font-size="34" font-weight="900" fill="#c2410c">IBNU KHANIF</text>
+    <line x1="-180" y1="165" x2="180" y2="165" stroke="#222222" stroke-width="2" />
+
+    <text x="0" y="200" font-family="'Montserrat', sans-serif" font-size="16" font-weight="500" fill="#334155">Sebagai Finalis &amp; Peserta Berprestasi pada:</text>
+    <text x="0" y="235" font-family="'Poppins', sans-serif" font-size="22" font-weight="bold" fill="#222222">Kompetisi Desain Gratitude Box</text>
+    <text x="0" y="265" font-family="'Montserrat', sans-serif" font-size="14" font-weight="700" fill="#fdb60c">BURGER BANGOR INDONESIA</text>
+
+    <!-- Signatures -->
+    <g transform="translate(-180, 310)">
+      <line x1="-60" y1="30" x2="60" y2="30" stroke="#94a3b8" stroke-width="1.5" />
+      <text x="0" y="50" font-family="'Montserrat', sans-serif" font-size="12" font-weight="bold" fill="#222222">Dewan Juri</text>
+    </g>
+
+    <g transform="translate(180, 310)">
+      <circle cx="0" cy="15" r="24" fill="#c2410c" opacity="0.2" />
+      <line x1="-60" y1="30" x2="60" y2="30" stroke="#94a3b8" stroke-width="1.5" />
+      <text x="0" y="50" font-family="'Montserrat', sans-serif" font-size="12" font-weight="bold" fill="#222222">Manajemen Bangor</text>
+    </g>
+  </g>
+</svg>
